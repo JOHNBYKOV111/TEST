@@ -1,0 +1,39 @@
+# Скрытые системные файлы и папки
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*~
+
+# Виртуальное окружение Python
+__pycache__
+*.pyc
+venv/
+
+# Сборка и распределение
+dist
+build
+*.egg-info
+*.egg
+*.whl
+
+# Конфигурационные файлы окружения
+.env
+.local
+*.session
+
+# Артефакты тестов
+.coverage
+.noseids
+.cache
+*.cover
+htmlcov/
+.coveragerc
+.pytest_cache
+.cov
+
+# Данные тестирования
+pytest.ini
+tox.ini
+.detox
+.mypy_cache
